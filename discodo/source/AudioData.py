@@ -3,7 +3,7 @@ from typing import Any, Dict, List, Optional
 
 import aiohttp
 import yarl
-import youtube_dl
+import yt_dlp as youtube_dl
 
 from ..config import Config
 from ..errors import Forbidden, TooManyRequests
