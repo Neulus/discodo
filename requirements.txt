@@ -9,7 +9,7 @@ uvloop>=0.5.3; sys_platform != "win32" and implementation_name == "cpython"
 asyncspotify @ git+https://github.com/Run1e/asyncspotify.git@69394b3931920e651b8a9e13e680afbd79bd90b8
 
 # Source extractor
-av==8.0.3
+av==11.0.0
 PyNaCl==1.4.0
 yt-dlp
 youtube-related==1.0.3
