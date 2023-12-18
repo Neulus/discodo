@@ -4,7 +4,7 @@ import ipaddress
 import logging
 from typing import Coroutine, Union
 
-from youtube_dl import YoutubeDL as YoutubeDLClient
+from yt_dlp import YoutubeDL as YoutubeDLClient
 
 from ..errors import NoSearchResults
 
